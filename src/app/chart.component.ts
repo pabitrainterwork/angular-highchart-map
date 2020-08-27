@@ -2,7 +2,7 @@ import { Component, OnInit } from "@angular/core";
 import * as Highcharts from "highcharts/highmaps";
 
 import mapdata from "./mapdata";
-import * as India from '@highcharts/map-collection/countries/in/in-all.geo.json';
+import * as India from '@highcharts/map-collection/countries/in/custom/in-all-andaman-and-nicobar.geo.json';
 
 mapdata(Highcharts);
 
